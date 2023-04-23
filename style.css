@@ -1,0 +1,262 @@
+ .productlist {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     color: rgba(0, 0, 0, 0.65);
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     font-feature-settings: 'tnum';
+     font-size: 12px;
+     -webkit-box-direction: normal;
+     font-family: "å¾®è½¯é›…é»‘",
+         "Microsoft Yahei",
+         "Myriad Set Pro",
+         "Lucida Grande",
+         "Helvetica Neue",
+         "Helvetica",
+         "Arial",
+         "Verdana",
+         "sans-serif";
+     box-sizing: border-box;
+     margin: 0.694444rem;
+ }
+
+ .ant_row {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     color: rgba(0, 0, 0, 0.65);
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     font-feature-settings: 'tnum';
+     font-size: 12px;
+     -webkit-box-direction: normal;
+     font-family: "å¾®è½¯é›…é»‘", "Microsoft Yahei", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+     position: relative;
+     height: auto;
+     zoom: 1;
+     display: block;
+     box-sizing: border-box;
+     margin: -24px -16px;
+ }
+
+ .ant-card {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     -webkit-box-direction: normal;
+     font-family: "å¾®è½¯é›…é»‘", "Microsoft Yahei", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+     margin: 0;
+     padding: 0;
+     color: rgba(0, 0, 0, 0.65);
+     font-size: 14px;
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     list-style: none;
+     font-feature-settings: 'tnum';
+     position: relative;
+     background: #fff;
+     border-radius: 2px;
+     transition: all 0.3s;
+     border: 1px solid #e8e8e8;
+     box-sizing: border-box;
+     text-align: center;
+ }
+
+ .ant-card-cover {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     -webkit-box-direction: normal;
+     color: rgba(0, 0, 0, 0.65);
+     font-size: 14px;
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     list-style: none;
+     font-feature-settings: 'tnum';
+     text-align: center;
+     font-family: "å¾®è½¯é›…é»‘", "Microsoft Yahei", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+     box-sizing: border-box;
+ }
+
+ .ant-card-body {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     -webkit-box-direction: normal;
+     color: rgba(0, 0, 0, 0.65);
+     font-size: 14px;
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     list-style: none;
+     font-feature-settings: 'tnum';
+     text-align: center;
+     font-family: "å¾®è½¯é›…é»‘", "Microsoft Yahei", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+     padding: 24px;
+     zoom: 1;
+     box-sizing: border-box;
+ }
+
+ .ant-card-meta {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     -webkit-box-direction: normal;
+     color: rgba(0, 0, 0, 0.65);
+     font-size: 14px;
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     list-style: none;
+     font-feature-settings: 'tnum';
+     text-align: center;
+     font-family: "å¾®è½¯é›…é»‘", "Microsoft Yahei", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+     margin: -4px 0;
+     zoom: 1;
+     box-sizing: border-box;
+ }
+
+
+ .ant-card-meta-detail {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     -webkit-box-direction: normal;
+     color: rgba(0, 0, 0, 0.65);
+     font-size: 14px;
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     list-style: none;
+     font-feature-settings: 'tnum';
+     text-align: center;
+     font-family: "å¾®è½¯é›…é»‘", "Microsoft Yahei", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+     overflow: hidden;
+     box-sizing: border-box;
+ }
+
+ /* 
+ .ant-card-meta-description {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     -webkit-box-direction: normal;
+     font-size: 14px;
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     list-style: none;
+     font-feature-settings: 'tnum';
+     text-align: center;
+     font-family: "å¾®è½¯é›…é»‘", "Microsoft Yahei", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+     color: rgba(0, 0, 0, 0.45);
+     box-sizing: border-box;
+     height: 0.555556rem;
+ } */
+
+ .ant-btn {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     -webkit-box-direction: normal;
+     list-style: none;
+     margin: 0;
+     font-family: inherit;
+     overflow: visible;
+     text-transform: none;
+     line-height: 1.499;
+     position: relative;
+     display: inline-block;
+     font-weight: 400;
+     white-space: nowrap;
+     text-align: center;
+     background-image: none;
+     border: 1px solid transparent;
+     cursor: pointer;
+     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+     user-select: none;
+     touch-action: manipulation;
+     height: 32px;
+     padding: 0 15px;
+     font-size: 14px;
+     border-radius: 4px;
+     outline: 0;
+     color: #fff;
+     background-color: #1890ff;
+     border-color: #1890ff;
+     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+     box-sizing: border-box;
+     -webkit-appearance: button;
+ }
+
+ .ant-card-actions {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     -webkit-box-direction: normal;
+     color: rgba(0, 0, 0, 0.65);
+     font-size: 14px;
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     font-feature-settings: 'tnum';
+     text-align: center;
+     font-family: "å¾®è½¯é›…é»‘", "Microsoft Yahei", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     background: #fafafa;
+     border-top: 1px solid #e8e8e8;
+     zoom: 1;
+     box-sizing: border-box;
+     height: 57;
+ }
+
+ .ant-row {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     color: rgba(0, 0, 0, 0.65);
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     font-feature-settings: 'tnum';
+     font-size: 12px;
+     -webkit-box-direction: normal;
+     font-family: "å¾®è½¯é›…é»‘",
+         "Microsoft Yahei",
+         "Myriad Set Pro",
+         "Lucida Grande",
+         "Helvetica Neue",
+         "Helvetica",
+         "Arial",
+         "Verdana",
+         "sans-serif";
+     position: relative;
+     height: auto;
+     zoom: 1;
+     display: block;
+     box-sizing: border-box;
+     margin: -24px -16px;
+
+ }
+
+ .ant-col {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     --antd-wave-shadow-color: #1890ff;
+     color: rgba(0, 0, 0, 0.65);
+     font-variant: tabular-nums;
+     line-height: 1.5;
+     font-feature-settings: 'tnum';
+     font-size: 12px;
+     -webkit-box-direction: normal;
+     font-family: "å¾®è½¯é›…é»‘", "Microsoft Yahei", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+     min-height: 1px;
+     position: relative;
+     -webkit-box-flex: 0;
+     flex: 0 0 auto;
+     float: left;
+     display: block;
+     width: 100%;
+     box-sizing: border-box;
+     background: transparent;
+     border: 0;
+     padding: 24px 16px;
+ }
