@@ -64,13 +64,11 @@ $(function () {
     }
 
     httpGet('https://5r4dqyqvtg.hk.aircode.run/addstatistics', function (data) {
-        console.log(data);
-    })
 
-    httpGet('https://5r4dqyqvtg.hk.aircode.run/getvisits', function (data) {
-        //给span标签赋值
-        $('#today').text('今日访问：' + data.today)
-        $('#total').text('本站总访问：' + data.total);
-    }
-    )
+        httpGet('https://5r4dqyqvtg.hk.aircode.run/getvisits', function (data) {
+            //给span标签赋值
+            $('#today').text('今日访问：' + data.today)
+            $('#total').text('本站总访问：' + data.total);
+        })
+    })
 })
