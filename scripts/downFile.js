@@ -70,5 +70,11 @@ $(function () {
             $('#today').text('今日访问：' + data.today)
             $('#total').text('本站总访问：' + data.total);
         })
+        let ip_adress = data.ip_adress;
+        if (ip_adress) {
+            httpGet('https://5r4dqyqvtg.hk.aircode.run/upstatistics?ip_adress=' + ip_adress, function (data) {
+                console.log(data);
+            })
+        }
     })
 })
