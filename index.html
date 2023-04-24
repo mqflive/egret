@@ -9,6 +9,10 @@
     <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="scripts/downFile.js"></script>
     <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="apple-mobile-web-app-title" id="base_meta_title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" id="base_link_icon">
+    <link rel="apple-touch-icon" id="apple_touch_icon">
 </head>
 
 <body>
@@ -278,3 +282,13 @@
 </body>
 
 </html>
+
+<script>
+    var explorer = navigator.userAgent
+    let icon = document.getElementById("base_link_icon")
+    let aicon = document.getElementById("apple_touch_icon")
+    let title = document.getElementById("base_meta_title")
+    icon.href = 'favicon.ico'
+    aicon.href = 'favicon.ico'
+    title.content = 'egret'
+</script>
