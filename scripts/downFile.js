@@ -40,6 +40,8 @@ $(function () {
             case 'Egret Inspector':
                 url = iswin ? 'iVbcN06or7za' : 'iIeiP06pciah';
                 break;
+            case 'Egret 引擎包':
+                url = 'b08bpn7mh';
             default:
                 break;
         }
