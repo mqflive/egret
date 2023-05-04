@@ -17,7 +17,7 @@ $(function () {
                 url = iswin ? 'iLUNG06or9fc' : 'itFU606pcjeh';
                 break;
             case 'Egret Native':
-
+                url = 'iZT6D0umoolc';
                 break;
             case 'Egret UI Editor':
                 url = iswin ? 'iofD706orbaj' : 'i7tk506pcove';
@@ -53,7 +53,7 @@ $(function () {
     })
 
     //http 请求
-    function httpGet(url, callback) {
+    function httpSend(url, callback) {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', url, true);
         xhr.responseType = "json";
@@ -65,16 +65,16 @@ $(function () {
         xhr.send();
     }
 
-    httpGet('https://5r4dqyqvtg.hk.aircode.run/addstatistics', function (data) {
+    httpSend('https://5r4dqyqvtg.hk.aircode.run/addstatistics', function (data) {
 
-        httpGet('https://5r4dqyqvtg.hk.aircode.run/getvisits', function (data) {
+        httpSend('https://5r4dqyqvtg.hk.aircode.run/getvisits', function (data) {
             //给span标签赋值
             $('#today').text('今日访问：' + data.today)
             $('#total').text('本站总访问：' + data.total);
         })
         let ip_adress = data.ip_adress;
         if (ip_adress) {
-            httpGet('https://5r4dqyqvtg.hk.aircode.run/upstatistics?ip_adress=' + ip_adress, function (data) {
+            httpSend('https://5r4dqyqvtg.hk.aircode.run/upstatistics?ip_adress=' + ip_adress, function (data) {
                 console.log(data);
             })
         }
