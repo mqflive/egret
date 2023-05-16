@@ -42,6 +42,10 @@ $(function () {
                 break;
             case 'Egret 引擎包':
                 url = 'b08bpn7mh';
+                break;
+            case '小游戏支持包':
+                url = 'b08cx7gzc';
+                break;
             default:
                 break;
         }
