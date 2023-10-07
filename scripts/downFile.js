@@ -17,7 +17,7 @@ $(function () {
                 url = iswin ? 'iLUNG06or9fc' : 'itFU606pcjeh';
                 break;
             case 'Egret Native':
-                url = 'iZT6D0umoolc';
+                url = 'idUcZ1azx9va';
                 break;
             case 'Egret UI Editor':
                 url = iswin ? 'iofD706orbaj' : 'i7tk506pcove';
