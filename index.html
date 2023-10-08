@@ -25,7 +25,9 @@
         <br>
         <span style="text-align: center; display: block; font-size: 20px; font-family: 微软雅黑;"><a href="http://ronpad.com/docs/egret/Publish.html" target="_blank">大佬破解版《离线登录及发布流程》</a></span>
         <br>
-        <span style="text-align: center; display: block; font-size: 20px; font-family: 微软雅黑;"><a href="https://www.egret.uk/" target="_blank">☞友情链接</a></span>
+        <span style="text-align: center; display: block; font-size: 20px; font-family: 微软雅黑;"><a href="https://www.egret.uk/" target="_blank">☞友情链接</a> |
+        <a href="javascript:void(0)" onclick="shoucang(document.title,window.location)">加入收藏</a>
+        </span>
     </div>
     <br>
     <br>
@@ -342,9 +344,26 @@
 </html>
 
 <script>
-    var explorer = navigator.userAgent
-    let icon = document.getElementById("base_link_icon")
-    let aicon = document.getElementById("apple_touch_icon")
-    icon.href = 'favicon.ico'
-    aicon.href = 'favicon.ico'
+    var explorer = navigator.userAgent;
+    let icon = document.getElementById("base_link_icon");
+    let aicon = document.getElementById("apple_touch_icon");
+    icon.href = 'favicon.ico';
+    aicon.href = 'favicon.ico';
+    // 加入收藏 兼容360和IE6
+    function shoucang(sTitle, sURL) {
+    try {
+        window.external.addFavorite(sURL, sTitle);
+    } catch (e) {
+        try {
+        window.sidebar.addPanel(sTitle, sURL, "");
+        } catch (e) {
+        alert("加入收藏失败，请使用Ctrl+D进行添加");
+        }
+    }
+    }
 </script>
+
+<style>
+    a {text-decoration: none}
+</style>
+  
