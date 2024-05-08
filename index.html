@@ -16,6 +16,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="theme-color" content="#fafafa">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="./dist/tctip-1.0.2.min.js"></script>
 </head>
 
 <body>
@@ -373,18 +374,24 @@
 </script>
 <!-- 打赏插件 -->
 <script>
-    window.tctipConfig = {
-        imagePrefix: "http://files.cnblogs.com/files/kdy11/",
-        cssPrefix: "http://files.cnblogs.com/files/kdy11",
-        buttonImageId: 4,
-        buttonTip: "dashang",
-        list: {
-            alipay: { qrimg: "https://files.cnblogs.com/files/mqflive81/zfb.bmp" },
-            weixin: { qrimg: "https://files.cnblogs.com/files/mqflive81/wx.bmp" },
-        }
-    };
+    new tctip({
+        top: '20%',
+        button: {
+            id: 5,
+            type: 'zanzhu'
+        },
+        list: [
+            {
+                type: 'alipay',
+                qrImg: './images/zfb.bmp'
+            }, {
+                type: 'wechat',
+                qrImg: './images/wx.bmp'
+            }
+        ]
+    }).init()
 </script>
-<script src="https://blog-static.cnblogs.com/files/CH520/ch_tctip01.js"></script>
+
 
 <style>
     a {
