@@ -2156,7 +2156,7 @@ var Title = function (_BaseDom) {
     value: function genDom() {
       this.createDom(_defineProperty({
         className: 'tctip-title'
-      }, _dom.textKey, '喜欢请打赏'), 'h1');
+      }, _dom.textKey, '您的支持是对我最大的鼓励'), 'h1');
     }
   }]);
 
