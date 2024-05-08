@@ -21,12 +21,15 @@
 <body>
     <h3 style="text-align: center">egret下载页，主打方便你我他</h3>
     <div>
-        <span style="text-align: center; display: block; font-size: 20px; font-family: 微软雅黑;"><a href="https://egret-docs.pages.dev/" target="_blank">开发者中心-使用手册</a></span>
+        <span style="text-align: center; display: block; font-size: 20px; font-family: 微软雅黑;"><a
+                href="https://egret-docs.pages.dev/" target="_blank">开发者中心-使用手册</a></span>
         <br>
-        <span style="text-align: center; display: block; font-size: 20px; font-family: 微软雅黑;"><a href="https://ronpad.com/egret/" target="_blank">大佬破解版《离线登录及发布流程》</a></span>
+        <span style="text-align: center; display: block; font-size: 20px; font-family: 微软雅黑;"><a
+                href="https://ronpad.com/egret/" target="_blank">大佬破解版《离线登录及发布流程》</a></span>
         <br>
-        <span style="text-align: center; display: block; font-size: 20px; font-family: 微软雅黑;"><a href="https://www.egret.uk/" target="_blank">☞友情链接</a> |
-        <a href="javascript:void(0)" onclick="shoucang(document.title,window.location)">加入收藏</a>
+        <span style="text-align: center; display: block; font-size: 20px; font-family: 微软雅黑;"><a
+                href="https://www.egret.uk/" target="_blank">☞友情链接</a> |
+            <a href="javascript:void(0)" onclick="shoucang(document.title,window.location)">加入收藏</a>
         </span>
     </div>
     <br>
@@ -321,11 +324,13 @@
                                 <div class="ant-card-meta-detail">
                                     <div class="ant-card-meta-title">小游戏支持包</div>
                                     <div>下载密码“egret”</div>
-                                    <div class="ant-card-meta-description">（包含支付宝、微信、百度、小米、OPPO、VIVO、淘宝、华为、360、字节跳动，以及新加的原生包发布）<br/>
-                                        【win】打开目录 C:\Users\admin\AppData\Roaming\EgretLauncher\download;<br/>
-                                        【mac】打开目录 /Users/当前用户/Library/Application Support/EgretLauncher/download;<br/>
-                                        将下载解压好的文件夹直接放到上面目录下， 其中json文件放到Config目录里。 <br/>
-                                        ☞注意：如果出现【找不到 target xxxx,请在 Egret Launcher 中安装】报错，一定要下载“解压后把里面文件放到tools目录下.zip”这个文件，配置好才能打包 </div>
+                                    <div class="ant-card-meta-description">
+                                        （包含支付宝、微信、百度、小米、OPPO、VIVO、淘宝、华为、360、字节跳动，以及新加的原生包发布）<br />
+                                        【win】打开目录 C:\Users\admin\AppData\Roaming\EgretLauncher\download;<br />
+                                        【mac】打开目录 /Users/当前用户/Library/Application Support/EgretLauncher/download;<br />
+                                        将下载解压好的文件夹直接放到上面目录下， 其中json文件放到Config目录里。 <br />
+                                        ☞注意：如果出现【找不到 target xxxx,请在 Egret Launcher
+                                        中安装】报错，一定要下载“解压后把里面文件放到tools目录下.zip”这个文件，配置好才能打包 </div>
                                 </div>
                             </div>
                         </div>
@@ -355,19 +360,34 @@
     aicon.href = 'favicon.ico';
     // 加入收藏 兼容360和IE6
     function shoucang(sTitle, sURL) {
-    try {
-        window.external.addFavorite(sURL, sTitle);
-    } catch (e) {
         try {
-        window.sidebar.addPanel(sTitle, sURL, "");
+            window.external.addFavorite(sURL, sTitle);
         } catch (e) {
-        alert("加入收藏失败，请使用Ctrl+D进行添加");
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            } catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
         }
     }
-    }
 </script>
+<!-- 打赏插件 -->
+<script>
+    window.tctipConfig = {
+        imagePrefix: "http://files.cnblogs.com/files/kdy11/",
+        cssPrefix: "http://files.cnblogs.com/files/kdy11",
+        buttonImageId: 4,
+        buttonTip: "dashang",
+        list: {
+            alipay: { qrimg: "https://files.cnblogs.com/files/mqflive81/zfb.bmp" },
+            weixin: { qrimg: "https://files.cnblogs.com/files/mqflive81/wx.bmp" },
+        }
+    };
+</script>
+<script src="https://blog-static.cnblogs.com/files/CH520/ch_tctip01.js"></script>
 
 <style>
-    a {text-decoration: none}
+    a {
+        text-decoration: none
+    }
 </style>
-
